@@ -4,7 +4,7 @@
 
 ### Using Deep Learning and satellite imagery to detect Urban Heat Island (UHI) effects
 
-_Final project for the Data Science Bootcamp at SPICED Academy, April-June 2023. By Jan Kühn_
+
 
 The **Urban Heat Island (UHI) effect** is a significant environmental issue that refers to the increased temperature in urban areas compared to their rural surroundings. This phenomenon is primarily caused by human activities, changes in land use, and built infrastructure. Dark surfaces, such as certain roofing materials, are known to absorb more solar radiation and contribute to elevated temperatures.
 
@@ -60,51 +60,4 @@ export SM_FRAMEWORK=tf.keras
 streamlit run app.py
 ```
 
-### Examples
 
-Here is an example of the **live segmentation** possible in the Streamlit app:
-
-https://github.com/yotkadata/uhi_detector/assets/7913590/5fdcdc30-6a7e-40ee-885c-f738fc9c8a33
-
-More **segmentation examples**:
-
-https://github.com/yotkadata/uhi_detector/assets/7913590/d9c9ab9f-3075-4d52-937e-9dc3b87bbdc7
-
-Here some **image examples** from the project, all except the building footprints calculated from Landsat 8 satellite imagery:
-
-#### Land Surface Temperature (LST)
-
-<a href="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_lst_colored.jpg">
-  <img src="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_lst_colored.jpg?raw=true" width="100%" />
-</a>
-
-#### Normalized Difference Vegetation Index (NDVI)
-
-<a href="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_ndvi_colored.jpg">
-  <img src="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_ndvi_colored.jpg?raw=true" width="100%" />
-</a>
-
-#### Emissivity
-
-<a href="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_emissivity_colored.jpg">
-  <img src="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_emissivity_colored.jpg?raw=true" width="100%" />
-</a>
-
-#### Building Footprints
-
-<a href="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_buildings.png">
-  <img src="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_buildings.png?raw=true" width="100%" />
-</a>
-
-#### Luminance of Building Footprints
-
-<a href="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_luminance.png">
-  <img src="https://github.com/yotkadata/uhi_detector/blob/main/data/presentation/berlin_luminance.png?raw=true" width="100%" />
-</a>
-
-### Thanks
-
-- ... to [**Guillaume Chevalier**](https://github.com/Vooban/) for the [code](https://github.com/Vooban/Smoothly-Blend-Image-Patches) to make smooth predictions by blending image patches.
-- ... to [**Dr. Sreenivas Bhattiprolu**](https://github.com/bnsreenu/) for inspiring tutorials on image segmentation.
-- ... to my teachers at SPICED Academy, especially [**Dr. Rakibur Rahman**](https://github.com/rahman-rakib), [**Dr. Parvin Sharifi**](https://github.com/Parvinsh), and [**Dr. Carmine Somma**](https://github.com/CarSomma).
-- ... to the great people of the **Bergamot Encoder** cohort at SPICED Academy.
