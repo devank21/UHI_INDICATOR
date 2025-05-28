@@ -1,9 +1,3 @@
-"""
-Streamlit app for the final project.
-SPICED Academy Data Science Bootcamp 2023.
-Building a "Urban Heat Island Detector" using satellite images.
-By Jan Kühn, https://yotka.org
-"""
 
 import os
 import sys
